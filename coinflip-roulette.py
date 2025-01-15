@@ -83,7 +83,6 @@ def turnSwap():
 
 
 def round(Coin_List, Player1_HP, Player2_HP):
-    global player_turn
     if Player1_HP>0 and Player2_HP>0:
         if len(Coin_List)==0:
             #if the list is out of items it runs coinlist again so play can continue.
